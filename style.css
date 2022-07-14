@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #1F2937;
+  color: #FFF;
+  font-family: Roboto;
+}

@@ -3,22 +3,45 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .hero {
+  display: flex;
+  justify-content: center;
   background-color: #1F2937;
   color: #FFF;
   font-family: Roboto;
+}
 
+.hero-content {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.hero-text {
+  display: flex; 
+  justify-content: space-between;
+  font-size: 18px;
+  color: #E5E7EB;
+  flex: 1;
+  margin: 150px 0px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
+  font-size: 24px;
 }
 
 ul {
@@ -27,4 +50,11 @@ ul {
   list-style: none; 
 
   display: flex;
+  gap: 16px;
+}
+
+.links a {
+  font-size: 18px;
+  color: #F9FAF8;
+  text-decoration: none;
 }

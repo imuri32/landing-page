@@ -8,12 +8,16 @@ body {
   flex-direction: column;
 }
 
+body {
+  font-family: Roboto;
+}
+
 .hero {
   display: flex;
   justify-content: center;
   background-color: #1F2937;
   color: #FFF;
-  font-family: Roboto;
+  margin-bottom: 40px;
 }
 
 .hero-content {
@@ -27,12 +31,15 @@ body {
   justify-content: space-between;
   padding-top: 20px;
   font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
 }
 
 ul {
   margin: 0;
   padding: 0;
   list-style: none; 
+  font-weight: normal;
 
   display: flex;
   gap: 16px;
@@ -40,7 +47,7 @@ ul {
 
 .links a {
   font-size: 18px;
-  color: #F9FAF8;
+  color: #E5E7EB;
   text-decoration: none;
 }
 
@@ -78,3 +85,25 @@ ul {
 .info {
   text-align: center;
 }
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  margin-bottom: 40px;
+}
+
+.card {
+  max-width: 400px;
+}
+
+  .card img {
+    border: 2px #3882F6 solid;
+    border-radius: 7px;
+  }

@@ -89,7 +89,8 @@ ul {
 .info-container {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 60px;
+  margin-bottom: 120px;
 }
 
 .info-title {
@@ -100,10 +101,11 @@ ul {
 }
 
 .card {
-  max-width: 400px;
+  max-width: 200px;
 }
 
   .card img {
     border: 2px #3882F6 solid;
     border-radius: 7px;
   }
+

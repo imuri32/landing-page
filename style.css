@@ -72,14 +72,19 @@ ul {
   margin-bottom: 15px;
 }
 
-.signup {
+.signup,
+.ctn-signup {
   background-color: #3882F6;
   color: #FFF;
   border: 0px solid;
-  border-radius: 6px;
+  border-radius: 10px;
   font-weight: bold;
+  font-size: 18px;
+  padding: 10px 40px;
+}
 
-  padding: 10px 30px;
+.ctn-signup {
+  border: 2px solid #FFF;
 }
 
 .info {
@@ -136,10 +141,36 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 30px;
+  padding: 100px 30px;
 }
 
 .cta-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  border-radius: 9px;
+}
+
+.cta-content {
+  padding: 50px 120px;
+}
+
+.cta-btn-wrapper {
+  padding: 50px 150px 40px 150px ;
+}
+
+.cta-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+.cta-text {
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
 }

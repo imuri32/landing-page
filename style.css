@@ -111,8 +111,12 @@ ul {
 
   .card img {
     border: 4px #3882F6 solid;
-    border-radius: 9px;
+    border-radius: 10px;
   }
+
+.text {
+  margin-top: 8px;
+}
 
 .quote {
   display: flex;

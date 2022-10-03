@@ -152,16 +152,10 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 280px;
+  padding: 50px 120px;
   background-color: #3882F6;
   border-radius: 9px;
-}
-
-.cta-content {
-  padding: 50px 120px;
-}
-
-.cta-btn-wrapper {
-  padding: 50px 150px 40px 150px ;
 }
 
 .cta-title {
